@@ -71,22 +71,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1>Es begr&uuml;&szlig;t Sie Montageservice Andreas Beller</h1>
+                <h1>Es begrüßt Sie Montageservice Beller</h1>
                 <!--p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p-->
+                <img src="images/montageservicebellerlogo.png"/>
                 <div style="text-align: right">
                     <a class="btn btn-default page-scroll" href="#about">Weiter!</a>
                 </div>
             </div>
-            <table height="0" width="823" border="0" align="center" cellspacing="20" cellpadding="20">
-                <tr>
-                    <td><h1>Kennen Sie das?</h1></td>
-                    <td><h1>Kein Problem!</h1></td>
-                </tr>
-                <tr>
-                    <td><p>Ihr Traumm&ouml;bel oder die Traumk&uuml;che ist gekauft. Der Transport ist organisiert.</p><br><p>Bei der bevorstehenden Montage wird ihre anf&auml;ngliche Euphorie jedoch ma&szlig;geblich dadurch ged&auml;mpft, dass ihnen entweder das geeignete Werkzeug, dass handwerkliche Geschick oder aber auch einfach nur die Motivation fehlt?</p></td>
-                    <td><p>kompetente Hilfe ist nur einen Mausklick oder einen Anruf entfernt.</p><br><p>Durch mein umfangreiches Leistungsangebot von der Initialen Einrichtungsberatung &uuml;ber die M&ouml;belreparatur bis hin zur abschlie&szlig;enden Montage bin ich mir sicher, Ihnen stets weiterhelfen zu k&ouml;nnen.</p></td>
-                </tr>
-            </table>
+            <div>
+            	<h2 align="left">Sie brauchen professionelle Hilfe<br>bei der Montage Ihrer Möbel und Küchen?</h2>
+            	<h4 align="right">Sie bevorzugen Qualität, faire Preise und Freundlichkeit? Dann haben Sie in Montageservice Beller<br>den richtigen Partner gefunden! Profitieren Sie von meiner zehnjährigen Erfahrung! </h4> 
+            </div>
             <div>
                 <img src="images/wohnwand.jpg"/>
             </div>
@@ -118,23 +113,19 @@
                 <div style="text-align: right">
                     <a class="btn btn-default page-scroll" href="#contact">Weiter!</a>
                 </div>
-                <h2>Preise:</h2>
-                <div ng-app = "mainApp" ng-controller = "CalcController">
-                    <p>Pro Meter K&uuml;chenmontage berechnen wir € 150,-</p>
-                    <p>Geben Sie die gew&uuml;nschte Meterzahl<input type = "number" ng-model = "number" /></p>
-                    <button ng-click = "berechne()">Berechne Summe</button>
-                    <p>Berechnete Summe: {{result}}</p>
+                <div>
+                	<table height="0" width="823" border="0" align="center" cellspacing="20" cellpadding="20">
+                		<tr>
+                    		<td><p>Küchenmontage und -Demontage Zuschnitt der Arbeitsplatten, Aufbau und Montage der Unter- und Oberschränke<br>Details & Preise</p></td>
+                    		<td><p>Möbelmontage und -Reparatur Erstmontage z.B. von Büromöbeln, Umbau, Reparatur von Türen etc.<br>Details & Preise</p></td>
+                		</tr>
+                		<tr>
+                    		<td><p>Zimmertüren<br>Details & Preise</p></td>
+                    		<td><p>Fußböden, Terrassen<br>Details & Preise</p></td>
+                		</tr>
+            		</table>
                 </div>
 
-                <script>
-                    var mainApp = angular.module("mainApp", []);
-
-                    mainApp.controller('CalcController', function($scope) {
-                        $scope.berechne = function() {
-                            $scope.result = $scope.number * 150;
-                        }
-                    });
-                </script>
             </div>
         </div>
     </div>
